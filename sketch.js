@@ -14,6 +14,9 @@ function draw()
   if(keyDown("right")){
     bloco.x = bloco.x+3
   }
+  if(keyDow("up")){
+    bloco.y = bloco.y-3
+  }
 
 
 
